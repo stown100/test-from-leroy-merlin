@@ -12,7 +12,7 @@ function App() {
     });
   }, []);
 
-  // Перевожу формат timestamp в "yyyy-mm-dd":
+  // Перевожу формат timestamp в "yyyy-mm-dd"
   const arr = [];
   for (let i = 0; i < items.length; i++) {
     const date_not_formatted = new Date(items[i].createdAt);
